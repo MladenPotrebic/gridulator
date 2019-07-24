@@ -12826,7 +12826,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var RestService = /** @class */ (function () {
     function RestService(httpClient) {
         this.httpClient = httpClient;
-        this.api = "https://116.203.85.250:8080/api";
+        this.api = "http://116.203.85.250:8080/api/";
     }
     RestService.prototype.getOne = function (path, id) {
         return this.httpClient.get("" + this.api + path + "/" + id);
